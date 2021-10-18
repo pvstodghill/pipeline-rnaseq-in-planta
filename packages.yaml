@@ -1,3 +1,10 @@
+# https://bioconductor.org/packages/DESeq2/
+---
+image: pvstodghill/deseq2
+version: 1.32.0__2021-10-18
+commands:
+  - Rscript
+
 # https://github.com/OpenGene/fastp
 ---
 image: pvstodghill/fastp
