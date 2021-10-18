@@ -14,3 +14,47 @@ java: true
 commands:
   - fastqc
 
+# https://github.com/samtools/samtools
+---
+image: pvstodghill/samtools
+version: 1.13__2021-09-01
+commands:
+  - ace2sam
+  - bcftools
+  - bgzip
+  - blast2sam.pl
+  - bowtie2sam.pl
+  - color-chrs.pl
+  - export2sam.pl
+  - guess-ploidy.py
+  - htsfile
+  - interpolate_sam.pl
+  - maq2sam-long
+  - maq2sam-short
+  - md5fa
+  - md5sum-lite
+  - novo2sam.pl
+  - plot-bamstats
+  - plot-roh.py
+  - plot-vcfstats
+  - psl2sam.pl
+  - run-roh.pl
+  - sam2vcf.pl
+  - samtools
+  - samtools.pl
+  - seq_cache_populate.pl
+  - soap2sam.pl
+  - tabix
+  - vcfutils.pl
+  - wgsim
+  - wgsim_eval.pl
+  - zoom2sam.pl
+
+# https://github.com/alexdobin/STAR
+---
+image: pvstodghill/star
+version: 2.7.9a__2021-10-13
+commands:
+  - STAR
+  - STARlong
+
