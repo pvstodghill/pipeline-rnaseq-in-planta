@@ -58,3 +58,16 @@ commands:
   - STAR
   - STARlong
 
+# http://subread.sourceforge.net/
+---
+image: pvstodghill/subread
+version: 2.0.3__2021-10-08
+commands:
+  - exactSNP
+  - featureCounts
+  - subindel
+  - subjunc
+  - sublong
+  - subread-align
+  - subread-buildindex
+
