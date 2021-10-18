@@ -4,3 +4,4 @@
 config.bash
 data/
 doit*.out
+doit[0-9][0-9][a-z].bash
