@@ -29,6 +29,7 @@ SAMPLES_NAME[5]=48Wt3
 SAMPLES_R1[5]=$(ls ${ILLUMINA}/*_48Wt3_*_R1.fastq.gz)
 SAMPLES_R2[5]=$(ls ${ILLUMINA}/*_48Wt3_*_R2.fastq.gz)
 
+ADDITIONAL_BACTERIA_GENES=local/srna.gtf
 
 # ------------------------------------------------------------------------
 

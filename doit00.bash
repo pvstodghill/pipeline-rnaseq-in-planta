@@ -32,13 +32,17 @@ mkdir -p ${INPUTS}
     echo 1>&2 '## Staging genomes'
 
     cp ncbi_dataset/data/${HOST_ACCESSION}/GC?_*.fna genome-host.fna
-    cp ncbi_dataset/data/${HOST_ACCESSION}/genomic.gff annotation-host.gff
+    #cp ncbi_dataset/data/${HOST_ACCESSION}/genomic.gff annotation-host.gff
     cp ncbi_dataset/data/${HOST_ACCESSION}/genomic.gtf annotation-host.gtf
 
     cp ncbi_dataset/data/${BACTERIA_ACCESSION}/GC?_*.fna genome-bacteria.fna
-    cp ncbi_dataset/data/${BACTERIA_ACCESSION}/genomic.gff annotation-bacteria.gff
+    #cp ncbi_dataset/data/${BACTERIA_ACCESSION}/genomic.gff annotation-bacteria.gff
     cp ncbi_dataset/data/${BACTERIA_ACCESSION}/genomic.gtf annotation-bacteria.gtf
 )
+
+    if [ "${ADDITIONAL_BACTERIA_GENES}" ] ; then
+	cat "${ADDITIONAL_BACTERIA_GENES}" >> ${INPUTS}/annotation-bacteria.gtf
+    fi
 
 # --------------------------------------------------
 
