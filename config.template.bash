@@ -49,5 +49,3 @@ fi
 # Override the default number of threads (nproc --all)
 #THREADS=32
 
-# fixme - document
-#RUN_FASTQC_AFTER_FASTP=yes

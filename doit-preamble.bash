@@ -132,3 +132,5 @@ set -o pipefail
 INPUTS=data/00_inputs
 FASTQC1=data/01_fastqc
 FASTP=data/02_fastp
+FASTQC2=data/03_fastqc
+
