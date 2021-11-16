@@ -127,3 +127,6 @@ function init_FEATURECOUNTS_ARGS {
 set -e
 set -o pipefail
 
+# ------------------------------------------------------------------------
+
+INPUTS=data/00_inputs

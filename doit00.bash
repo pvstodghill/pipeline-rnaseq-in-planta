@@ -7,11 +7,9 @@
 # ------------------------------------------------------------------------
 
 rm -rf data
-
-echo 1>&2 '# Initializing data/...'
 mkdir -p data/tmp
 
-INPUTS=data/00_inputs
+echo 1>&2 '# Initializing data/...'
 mkdir -p ${INPUTS}
 
 # --------------------------------------------------
