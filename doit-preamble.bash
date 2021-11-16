@@ -136,3 +136,4 @@ FASTQC2=data/03_fastqc
 STAR=data/04_star
 PROFILES=data/05_profiles
 COUNTS=data/06_counts
+DESEQ2=data/07_deseq2
