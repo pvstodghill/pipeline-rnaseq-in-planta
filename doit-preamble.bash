@@ -134,4 +134,5 @@ FASTQC1=data/01_fastqc
 FASTP=data/02_fastp
 FASTQC2=data/03_fastqc
 STAR=data/04_star
+PROFILES=data/05_profiles
 COUNTS=data/06_counts
