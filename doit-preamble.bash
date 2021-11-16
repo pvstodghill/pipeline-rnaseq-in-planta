@@ -137,3 +137,4 @@ STAR=data/04_star
 PROFILES=data/05_profiles
 COUNTS=data/06_counts
 DESEQ2=data/07_deseq2
+STATS=data/08_stats
