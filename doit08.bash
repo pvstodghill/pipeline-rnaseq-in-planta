@@ -6,6 +6,9 @@
 # Step 8. Compute some high-level stats
 # ------------------------------------------------------------------------
 
+echo 1>&2 fixme: need to check for missing edits
+exit 1
+
 echo 1>&2 '# Generating statistics...'
 
 rm -rf ${STATS}

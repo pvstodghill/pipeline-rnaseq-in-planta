@@ -2,13 +2,12 @@
 
 . doit-preamble.bash
 
-PROFILES=data/05_profiles
-DESEQ2=data/07_deseq2
-STATS=data/08_stats
-
 # ------------------------------------------------------------------------
 # Package the results
 # ------------------------------------------------------------------------
+
+echo 1>&2 fixme: need to check for missing edits
+exit 1
 
 RESULTS=$(date +%Y-%m-%d)-results
 echo 1>&2 '# Creating '$RESULTS'...'

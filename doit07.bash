@@ -6,6 +6,9 @@
 # Step 7. Run DESeq2
 # ------------------------------------------------------------------------
 
+echo 1>&2 fixme: need to check for missing edits
+exit 1
+
 echo 1>&2 '# Running DESeq2...'
 
 CHANGE_CUTOFF=2.0
