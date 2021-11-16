@@ -37,15 +37,13 @@ if [ -e /programs/docker/bin/docker1 ] ; then
     export HOWTO_DOCKER_CMD=/programs/docker/bin/docker1
 fi
 
-# if DONT_USE_STUBS is set to any non-empty string, then don't use
-# ./stubs/
-#DONT_USE_STUBS=yes
+# Uncomment to get packages from HOWTO
+PACKAGES_FROM=howto
 
 # uncomment to use conda
-#CONDA_PREFIX=$(dirname $(dirname $(type -p conda)))
-#. "${CONDA_PREFIX}/etc/profile.d/conda.sh"
-#conda activate
+#PACKAGES_FROM=conda
+#CONDA_EXE=$(type -p conda)
+#CONDA_ENV=pipeline-rnaseq-in-planta
 
 # Override the default number of threads (nproc --all)
 #THREADS=32
-
