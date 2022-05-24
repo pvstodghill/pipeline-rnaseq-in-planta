@@ -1,9 +1,9 @@
 [submodule "howto"]
 	path = howto
-	url = https://github.com/pvstodghill/howto
+	url = ../howto
 [submodule "stubs"]
 	path = stubs
-	url = https://github.com/pvstodghill/stubs
+	url = ../stubs
 [submodule "scripts"]
 	path = scripts
-	url = https://github.com/pvstodghill/scripts
+	url = ../scripts
